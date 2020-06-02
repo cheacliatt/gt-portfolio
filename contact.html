@@ -62,24 +62,29 @@
             <a class="nav-link" href="portfolio.html">Portfolio</a>
           </li>
         </ul>
-        <form class="form-inline my-2 my-lg-0">
-          <input
-            class="form-control mr-sm-2"
-            type="search"
-            placeholder="Search"
-            aria-label="Search"
-          />
-          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
-            Search
-          </button>
-        </form>
       </div>
     </nav>
     <!-- End of Nav Bar -->
-    <div class="container" id="contact-form">
+
+    <!-- Star of Contact Form  -->
+    <main class="container" id="contact-form">
+      <div class="row">
+        <div class="col">
+          <h1>Contact</h1>
+        </div>
+      </div>
       <div class="row">
         <div class="col-sm-6">
           <form>
+            <div class="form-group">
+              <label for="contact-name">Name</label>
+              <input
+                type="name-input"
+                class="form-control"
+                id="contact-name"
+                aria-describedby="nameHelp"
+              />
+            </div>
             <div class="form-group">
               <label for="exampleInputEmail1">Email address</label>
               <input
@@ -88,32 +93,24 @@
                 id="exampleInputEmail1"
                 aria-describedby="emailHelp"
               />
-              <small id="emailHelp" class="form-text text-muted"
-                >We'll never share your email with anyone else.</small
-              >
             </div>
             <div class="form-group">
-              <label for="exampleInputPassword1">Password</label>
+              <label for="contact-message">Message</label>
               <input
-                type="password"
+                type="message-input"
                 class="form-control"
-                id="exampleInputPassword1"
+                id="contact-message"
+                aria-describedby="messageHelp"
               />
             </div>
-            <div class="form-group form-check">
-              <input
-                type="checkbox"
-                class="form-check-input"
-                id="exampleCheck1"
-              />
-              <label class="form-check-label" for="exampleCheck1"
-                >Check me out</label
-              >
-            </div>
-            <button type="submit" class="btn btn-primary">Submit</button>
+            <button type="submit" class="btn btn-primary" id="contact-button">
+              Submit
+            </button>
           </form>
         </div>
       </div>
-    </div>
+    </main>
+    <!-- End of Contact Form  -->
+    
   </body>
 </html>
