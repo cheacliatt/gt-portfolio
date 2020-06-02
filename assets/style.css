@@ -1,0 +1,13 @@
+/* Background Image  */
+body {
+    background-image: url("gtpfbg.png");
+  }
+
+.container {
+    width: auto;
+    margin: auto;
+}  
+
+#contact-form {
+    background-color: whitesmoke;
+}
