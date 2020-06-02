@@ -14,14 +14,8 @@ body {
   margin: auto;
 }
 
-/* Contact Form ID  */
-#contact-form {
-  background-color: whitesmoke;
-  margin: 30px;
-}
-
-/* About Form ID  */
-#about-form {
+/* Main Containers ID  */
+#main-container {
   background-color: whitesmoke;
   margin: 30px;
 }
