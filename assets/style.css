@@ -14,9 +14,21 @@ body {
   margin: auto;
 }
 
-/* Contact Form background color  */
+/* Contact Form ID  */
 #contact-form {
-
   background-color: whitesmoke;
   margin: 30px;
+}
+
+/* About Form ID  */
+#about-form {
+  background-color: whitesmoke;
+  margin: 30px;
+}
+
+/* Chea's Cat Image  */
+#chea-cat {
+    width: 150px;
+    margin: 15px;
+    float: left;
 }
