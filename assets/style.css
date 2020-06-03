@@ -3,6 +3,17 @@ body {
   background-image: url("gtpfbg.png");
 }
 
+/* h1 Properties, mainly highlight color  */
+h1 {
+  color: lightseagreen;
+}
+
+/* General Image properties  */
+img {
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
 /* ID for Contact Page Submit Button  */
 #contact-button {
   margin: 10px;
@@ -10,25 +21,41 @@ body {
 
 /* Container Class Width and Margin  */
 .container {
-  width: auto;
-  margin: auto;
-}
-
-/* Contact Form ID  */
-#contact-form {
   background-color: whitesmoke;
-  margin: 30px;
-}
-
-/* About Form ID  */
-#about-form {
-  background-color: whitesmoke;
-  margin: 30px;
+  height: 70%;
+  margin-right: 80%;
+  margin-left: 15%;
+  margin-top: 10%;
+  margin-bottom: 20%;
+  padding-left: 35px;
+  padding-top: 35px;
+  padding-bottom: 35px;
+  position: relative;
+  width: 60%;
 }
 
 /* Chea's Cat Image  */
 #chea-cat {
-    width: 150px;
-    margin: 15px;
-    float: left;
+  width: 150px;
+  margin: 15px;
+  float: left;
+}
+
+/* Font of Navbar  */
+.navbar-brand {
+  font-family: serif;
+  color: white !important;
+  font-weight: 500;
+  background-color: lightseagreen;
+}
+
+/* Column class  */
+.col {
+  position: center;
+}
+
+@media screen and (max-width: 768px) {
+  img {
+    width: 80%;
+  }
 }
