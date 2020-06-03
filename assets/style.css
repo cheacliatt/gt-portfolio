@@ -3,10 +3,12 @@ body {
   background-image: url("gtpfbg.png");
 }
 
+/* h1 Properties, mainly highlight color  */
 h1 {
   color: lightseagreen;
 }
 
+/* General Image properties  */
 img {
   margin-left: 20px;
   margin-bottom: 20px;
@@ -39,6 +41,7 @@ img {
   float: left;
 }
 
+/* Font of Navbar  */
 .navbar-brand {
   font-family: serif;
   color: white !important;
@@ -46,12 +49,10 @@ img {
   background-color: lightseagreen;
 }
 
-
+/* Column class  */
 .col {
   position: center;
 }
-
-
 
 @media screen and (max-width: 768px) {
   img {
