@@ -1,17 +1,39 @@
 /* Background Image  */
 body {
-  background-image: url("gtpfbg.png");
+  background-image: url("bkground3.png");
+  background-size: cover;
 }
 
 /* h1 Properties, mainly highlight color  */
 h1 {
-  color: lightseagreen;
+  color: whitesmoke;
+}
+
+p {
+  color: whitesmoke;
+}
+
+.bg-light {
+  background-color: rgba(27, 27, 27, 0.432)!important;
 }
 
 /* General Image properties  */
 img {
-  margin-left: 20px;
-  margin-bottom: 20px;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  float: left;
+  padding-right: 10px;
+  padding-top: 10px;
+}
+
+.contact-title {
+  color: whitesmoke !important;
+}
+
+.app-description {
+  padding-top: 10px;
 }
 
 /* ID for Contact Page Submit Button  */
@@ -21,7 +43,7 @@ img {
 
 /* Container Class Width and Margin  */
 .container {
-  background-color: whitesmoke;
+  background-color: rgb(37, 37, 37) !important;
   height: 70%;
   margin-right: 80%;
   margin-left: 15%;
@@ -36,23 +58,40 @@ img {
 
 /* Chea's Profile Image  */
 #chea-profile {
-  width: 200px;
+  width: 350px;
   margin: 15px;
+  margin-left: 0px;
   float: left;
 }
 
 /* Font of Navbar  */
 .navbar-brand {
   font-family: serif;
-  color: white !important;
+  color: whitesmoke !important;
   font-weight: 500;
-  background-color: lightseagreen;
+}
+
+.nav-link {
+  color: white !important;
+}
+
+.navbar-toggler {
+  background-color: rgba(184, 184, 184, 0) !important;
+}
+
+.navbar-toggler-icon {
+  background-color: rgba(245, 245, 245, 0) !important;
+}
+
+.btn {
+  background-color: rgb(184, 184, 184) !important;
+  border-color: black;
 }
 
 /* Column class  */
-.col {
+/* .col {
   position: center;
-}
+} */
 
 /* Gray Sticky Footer  */
 footer {
@@ -65,8 +104,32 @@ footer {
   text-align: center;
 }
 
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.custom-toggler.navbar-toggler {
+  /* border-color: rgb(255,255,255); */
+} 
+
 @media screen and (max-width: 768px) {
   img {
-    width: 80%;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    float: none;
+  }
+
+  #chea-profile {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    float: none;
+  }
+
+  .container {
+    width: 70%;
   }
 }
