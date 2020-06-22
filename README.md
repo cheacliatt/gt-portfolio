@@ -3,7 +3,7 @@
 ## Description
 This webpage serves as a portfolio for this user's career-oriented work. It is made using Bootstrap, and it is responsive on different devices. This is an ongoing work in-progress, as this user will gradually build onto it with future applications.
 
-![screenshot of web page](portfolioscreenshot.png "Chea Cliatt")
+![screenshot of web page](portfolioscreenshot.PNG "Chea Cliatt")
 
 ## Installation
 
