@@ -3,11 +3,16 @@
 ## Description
 This webpage serves as a portfolio for this user's career-oriented work. It is made using Bootstrap, and it is responsive on different devices. This is an ongoing work in-progress, as this user will gradually build onto it with future applications.
 
-![screenshot of web page](web-screenshot.png "Chea Cliatt")
+![screenshot of web page](portfolioscreenshot.png "Chea Cliatt")
 
 ## Installation
 
-This code can be forked onto one's local device through GitHub. Please make sure you are using the correction applications for administering this code onto your device, such as Terminal and Visual Studio Code.
+This code can be forked onto one's local device through GitHub. Please make sure you are using the correct applications for administering this code onto your device, such as Terminal and Visual Studio Code.
+
+## Links
+[GitHub repository](https://github.com/cheacliatt/gt-portfolio "Repository")
+
+[Deployed](https://cheacliatt.github.io/gt-portfolio/ "Pages")
 
 ## Usage
 
